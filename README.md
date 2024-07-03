@@ -27,8 +27,8 @@ persistência dos dados, por um banco de dados SQL, gerenciado pelo ORM SQLAlche
 ### 1. Clone o repositório:
 
 ```
-git clone https://github.com/seu-usuario/spotify-search-tool.git
-cd spotify-search-tool
+git clone https://github.com/LuanOliveira88/spotify_search_tool.git
+cd spotify_search_tool
 ```
 
 ### 2. Crie um ambiente virtual e ative-o:
@@ -38,7 +38,7 @@ cd spotify-search-tool
 python -m venv venv
 source venv/bin/activate
 ```
-### Windows
+#### Windows
 
 ``` 
 python -m venv venv
@@ -76,7 +76,8 @@ streamlit run app.py
 ```
 
 2. No navegador, insira o nome do artista na barra lateral e clique no botão "Submit" para buscar os resultados.
-3. Os resultados serão exibidos na área principal. Você pode baixar os resultados como arquivo CSV clicando no botão "Baixar resultados como CSV".
+3. Os resultados serão exibidos na área principal. Você pode baixar os resultados como arquivo CSV clicando e um dos
+botões que surgem no canto superior direito do dataframe.
 
 ## Estrutura do Projeto
 
@@ -84,7 +85,7 @@ streamlit run app.py
 spotify_search_tool/
 │
 ├── app.py
-├── connector.py
+├── database.py
 ├── scripts.py
 ├── requirements.txt
 ├── .env
