@@ -59,7 +59,7 @@ Copie o exemplo abaixo e preencher `CLIENT_ID` e `CLIENT_SECRET` com suas creden
 CLIENT_ID=your_spotify_client_id
 CLIENT_SECRET=your_spotify_client_secret
 DATABASE_URL=sqlite:///spotify_data.db
-REDIRECT_URI=https://google.com
+REDIRECT_URI=your_spotify_redirect_uri
 SPOTIFY_AUTH_URL=https://accounts.spotify.com/authorize
 SPOTIFY_TOKEN_URL=https://accounts.spotify.com/api/token
 SPOTIFY_API_URL=https://api.spotify.com/v1
