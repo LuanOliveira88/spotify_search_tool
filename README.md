@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 ### 4. Configure as variáveis de ambiente no arquivo `.env`. 
 
-Copie o exemplo abaixo e preencher `CLIENT_ID`, `CLIENT_SECRET` e `REDIRECT_URI` com suas credenciais da API do Spotify:
+Copie o exemplo abaixo e preencha `CLIENT_ID`, `CLIENT_SECRET` e `REDIRECT_URI` com suas credenciais da API do Spotify:
 
 ```
 CLIENT_ID=your_spotify_client_id
